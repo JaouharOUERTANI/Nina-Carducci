@@ -13,5 +13,3 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
-
-//Pour retirer le chevron de droite du carousel
