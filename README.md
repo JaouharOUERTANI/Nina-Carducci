@@ -31,3 +31,5 @@ politique de mise en cache : j'ai créer un fichier .htaccess à la racine du pr
 1. Ouvrir un terminal : entrer `cd desktop`
 2. Clonez le repository : entrer git clone `git clone https://github.com/JaouharOUERTANI/Nina-Carducci.git`
 3. Ouvrez le fichier `index.html` dans votre navigateur pour visualiser le portfolio localement.
+## Comment voir le rendu hébergé
+suivez ce lien github pages https://JaouharOUERTANI.github.io/Nina-Carducci/
