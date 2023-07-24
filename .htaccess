@@ -17,11 +17,6 @@
     <filesMatch "\.(html|htm)$">
         Header set Cache-Control "max-age=7200, public"
     </filesMatch>
-
-    # Enleve le cache pour les ressources dynamiques
-    <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
-        Header unset Cache-Control
-    </FilesMatch>
 </IfModule>
 
 <IfModule mod_expires.c>
@@ -31,12 +26,19 @@
     ExpiresByType image/jpeg "access plus 1 year"
     ExpiresByType image/gif "access plus 1 year"
     ExpiresByType image/png "access plus 1 year"
-    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/css "access plus 1 week"
     ExpiresByType application/pdf "access plus 1 month"
     ExpiresByType text/x-javascript "access plus 1 month"
     ExpiresByType application/x-shockwave-flash "access plus 1 month"
     ExpiresByType image/x-icon "access plus 1 year"
     ExpiresDefault "access plus 2 days"
 </IfModule>
+
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS application/javascript text/css
+  AddOutputFilterByType BROTLI_COMPRESS application/x-font-ttf application/vnd.ms-fontobject image/svg+xml
+</IfModule>
+
+AddOutputFilterByType DEFLATE application/x-font-ttf application/x-font-opentype application/vnd.ms-fontobject application/x-font-woff
 
 Header set Content-Security-Policy "script-src 'self';"
