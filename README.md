@@ -16,8 +16,9 @@ Ce projet est le portfolio en ligne de Nina Carducci, une photographe basée à 
 - **Accessibilité** : J'ai amélioré l'accessibilité du site en ajoutant des balises sémantiques appropriées, en assurant une navigation claire et en rendant le site utilisable pour les utilisateurs ayant des handicaps visuels.
 - **Performances** : J'ai optimisé les performances du site en compressant les images, en minimisant les fichiers CSS et JavaScript, en utilisant des techniques de mise en cache et en optimisant la vitesse de chargement des pages.
 - **SEO** : J'ai optimisé le référencement du site en ajoutant des balises méta appropriées, en optimisant les URL, en ajoutant des balises d'en-tête appropriées et en améliorant la structure du site pour une meilleure indexation par les moteurs de recherche.
-## Le petit plus
-politique de mise en cache : j'ai créer un fichier .htaccess à la racine du projet pour avoir une maitrise sur le cache contrôle
+## Les petits plus
+politique de mise en chache : j'ai créer un fichier .htaccess à la racine du projet pour avoir une maitrise sur le cache contrôle
+contrôle du crowl : j'ai rédigé un fichier robots.txt ainsi qu'un sitemap.xml pour que les bots google et autres puissent crowler.
 ## Technologies utilisées
 - HTML5
 - CSS3
