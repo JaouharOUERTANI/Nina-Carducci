@@ -1,0 +1,34 @@
+{
+    "name": "Nina Carducci, photographe professionnelle basée à Bordeaux",
+    "short_name": "Nina Carducci",
+    "start_url": "https://jaouharouertani.github.io/Nina-Carducci/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "icons": [
+      {
+        "src": "./assets/images/nina_72w.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/images/nina_96w.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/images/nina_144w.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/images/nina_192w.png.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "description": "Capturer les moments les plus précieux de votre vie avec créativité et passion. Photographe professionnelle basée à Bordeaux, spécialisée dans les portraits, les mariages et les événements. Des images authentiques et intemporelles qui racontent votre histoire. Réservez votre séance photo dès maintenant !",
+    "lang": "fr",
+    "dir": "ltr"
+  }
+  
