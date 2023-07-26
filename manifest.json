@@ -22,7 +22,7 @@
         "type": "image/png"
       },
       {
-        "src": "./assets/images/nina_192w.png.png",
+        "src": "./assets/images/nina_192w.png",
         "sizes": "192x192",
         "type": "image/png"
       }
